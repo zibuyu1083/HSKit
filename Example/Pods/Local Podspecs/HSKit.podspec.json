@@ -1,0 +1,22 @@
+{
+  "name": "HSKit",
+  "version": "0.1.0",
+  "summary": "A short description of HSKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuyanhui_vip@163.com/HSKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuyanhui_vip@163.com": "yanhui.xu@1905.com"
+  },
+  "source": {
+    "git": "https://github.com/xuyanhui_vip@163.com/HSKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HSKit/Classes/**/*"
+}
