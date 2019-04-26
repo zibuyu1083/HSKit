@@ -8,6 +8,7 @@
 
 #import "UIImage+Extension.h"
 #import <Accelerate/Accelerate.h>
+#import "M1905MacroDefinition.h"
 
 #define kCompresseionDataLength (500000.0f) //最大压缩大小(50k)
 #define FILMTILE_IMAGE_BACKGROUND_COLOR [UIColor colorWithRed:40.f/255.f green:40.f/255.f blue:40.f/255.f alpha:1]

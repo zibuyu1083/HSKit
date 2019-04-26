@@ -12,15 +12,7 @@
 @implementation UIFont (HSKit)
 
 + (UIFont *)hs_systemFontOfSize:(CGFloat)fontSize weight:(UIFontWeight)weight{
-    if ([UIDevice currentDevice].systemVersion.floatValue < 8.2) {
-        if (weight <= UIFontWeightRegular) {
-            return [UIFont systemFontOfSize:fontSize];
-        }else {
-            return [UIFont boldSystemFontOfSize:fontSize];
-        }
-    }else {
-        return [UIFont systemFontOfSize:fontSize weight:weight];
-    }
+    return [UIFont boldSystemFontOfSize:fontSize];
 }
 
 + (CGFloat)singleLineHeightWithFont:(UIFont *)font{
