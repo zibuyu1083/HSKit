@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSKit'
-  s.version          = '1.0.3'
+  s.version          = '1.0.5'
   s.summary          = '常用分类。'
 
 # This description is used to generate tags and improve search results.
