@@ -62,7 +62,6 @@
 		6EDEB3F42272A095006E3720 /* NSString+DYChangYanEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3B92272A08F006E3720 /* NSString+DYChangYanEmoji.h */; };
 		6EDEB3F52272A095006E3720 /* UINavigationBar+FSAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3BA2272A08F006E3720 /* UINavigationBar+FSAppearance.m */; };
 		6EDEB3F62272A095006E3720 /* NSURL+DYQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3BB2272A090006E3720 /* NSURL+DYQuery.h */; };
-		6EDEB3F72272A095006E3720 /* UIViewController+UM.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3BC2272A090006E3720 /* UIViewController+UM.h */; };
 		6EDEB3F82272A095006E3720 /* UIImage+animatedGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3BD2272A090006E3720 /* UIImage+animatedGIF.h */; };
 		6EDEB3F92272A095006E3720 /* FLAnimatedImageView+FSGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3BE2272A090006E3720 /* FLAnimatedImageView+FSGif.h */; };
 		6EDEB3FA2272A095006E3720 /* UIImageView+CornerMark.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3BF2272A090006E3720 /* UIImageView+CornerMark.h */; };
@@ -84,7 +83,6 @@
 		6EDEB40A2272A095006E3720 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3CF2272A091006E3720 /* UIImage+Extension.m */; };
 		6EDEB40B2272A095006E3720 /* UINavigationBar+FSAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3D02272A091006E3720 /* UINavigationBar+FSAppearance.h */; };
 		6EDEB40C2272A095006E3720 /* UIAlertView+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D12272A091006E3720 /* UIAlertView+Runtime.m */; };
-		6EDEB40D2272A095006E3720 /* UIViewController+UM.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D22272A092006E3720 /* UIViewController+UM.m */; };
 		6EDEB40E2272A095006E3720 /* NSString+DYChangYanEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D32272A092006E3720 /* NSString+DYChangYanEmoji.m */; };
 		6EDEB40F2272A095006E3720 /* UIDevice+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D42272A092006E3720 /* UIDevice+FSExtension.m */; };
 		6EDEB4102272A095006E3720 /* UIScrollView+FSPageState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D52272A092006E3720 /* UIScrollView+FSPageState.m */; };
@@ -377,7 +375,6 @@
 		6EDEB3B92272A08F006E3720 /* NSString+DYChangYanEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DYChangYanEmoji.h"; path = "HSKit/Classes/NSString+DYChangYanEmoji.h"; sourceTree = "<group>"; };
 		6EDEB3BA2272A08F006E3720 /* UINavigationBar+FSAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+FSAppearance.m"; path = "HSKit/Classes/UINavigationBar+FSAppearance.m"; sourceTree = "<group>"; };
 		6EDEB3BB2272A090006E3720 /* NSURL+DYQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+DYQuery.h"; path = "HSKit/Classes/NSURL+DYQuery.h"; sourceTree = "<group>"; };
-		6EDEB3BC2272A090006E3720 /* UIViewController+UM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+UM.h"; path = "HSKit/Classes/UIViewController+UM.h"; sourceTree = "<group>"; };
 		6EDEB3BD2272A090006E3720 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "HSKit/Classes/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		6EDEB3BE2272A090006E3720 /* FLAnimatedImageView+FSGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FLAnimatedImageView+FSGif.h"; path = "HSKit/Classes/FLAnimatedImageView+FSGif.h"; sourceTree = "<group>"; };
 		6EDEB3BF2272A090006E3720 /* UIImageView+CornerMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+CornerMark.h"; path = "HSKit/Classes/UIImageView+CornerMark.h"; sourceTree = "<group>"; };
@@ -399,7 +396,6 @@
 		6EDEB3CF2272A091006E3720 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "HSKit/Classes/UIImage+Extension.m"; sourceTree = "<group>"; };
 		6EDEB3D02272A091006E3720 /* UINavigationBar+FSAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+FSAppearance.h"; path = "HSKit/Classes/UINavigationBar+FSAppearance.h"; sourceTree = "<group>"; };
 		6EDEB3D12272A091006E3720 /* UIAlertView+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Runtime.m"; path = "HSKit/Classes/UIAlertView+Runtime.m"; sourceTree = "<group>"; };
-		6EDEB3D22272A092006E3720 /* UIViewController+UM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+UM.m"; path = "HSKit/Classes/UIViewController+UM.m"; sourceTree = "<group>"; };
 		6EDEB3D32272A092006E3720 /* NSString+DYChangYanEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DYChangYanEmoji.m"; path = "HSKit/Classes/NSString+DYChangYanEmoji.m"; sourceTree = "<group>"; };
 		6EDEB3D42272A092006E3720 /* UIDevice+FSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+FSExtension.m"; path = "HSKit/Classes/UIDevice+FSExtension.m"; sourceTree = "<group>"; };
 		6EDEB3D52272A092006E3720 /* UIScrollView+FSPageState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+FSPageState.m"; path = "HSKit/Classes/UIScrollView+FSPageState.m"; sourceTree = "<group>"; };
@@ -924,8 +920,6 @@
 				6EEF2F2D22705892006FD378 /* UIView+HSKit.m */,
 				6EDEB3EA2272A094006E3720 /* UIViewController+Navigate.h */,
 				6EDEB3ED2272A094006E3720 /* UIViewController+Navigate.m */,
-				6EDEB3BC2272A090006E3720 /* UIViewController+UM.h */,
-				6EDEB3D22272A092006E3720 /* UIViewController+UM.m */,
 				6EDEB4332272A5BF006E3720 /* SNRuntimeUtil.h */,
 				6EDEB4322272A5BE006E3720 /* SNRuntimeUtil.m */,
 				6EDEB3EB2272A094006E3720 /* UIWebView+Extension.h */,
@@ -1144,7 +1138,6 @@
 				ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */,
 				6EDEB42C2272A095006E3720 /* UIImageView+BackgroundColor.h in Headers */,
 				6EDEB3F92272A095006E3720 /* FLAnimatedImageView+FSGif.h in Headers */,
-				6EDEB3F72272A095006E3720 /* UIViewController+UM.h in Headers */,
 				FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */,
 				4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */,
 				6EDEB4212272A095006E3720 /* NSError+Extension.h in Headers */,
@@ -1542,7 +1535,6 @@
 				6EEF2F3822705893006FD378 /* NSString+HSKit.m in Sources */,
 				AE7BBD46BA00A9AC69249ADA56402162 /* EXPUnsupportedObject.m in Sources */,
 				A6CC81FC886EE8FF27EF4DD48D6F8F56 /* NSValue+Expecta.m in Sources */,
-				6EDEB40D2272A095006E3720 /* UIViewController+UM.m in Sources */,
 				6EDEB40F2272A095006E3720 /* UIDevice+FSExtension.m in Sources */,
 				6EDEB4292272A095006E3720 /* UIScrollView+EmptyDataSet.m in Sources */,
 				6EDEB4192272A095006E3720 /* NullSafe.m in Sources */,

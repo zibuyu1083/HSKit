@@ -7,6 +7,7 @@
 //
 
 #import "UITabBarController+HideTabbar.h"
+#import "UIDevice+FSExtension.h"
 
 
 // 状态栏高度
