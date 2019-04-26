@@ -9,6 +9,14 @@
 #import "UINavigationBar+FSAppearance.h"
 #import "UIImage+Extension.h"
 #import "UIDevice+FSExtension.h"
+#import <objc/runtime.h>
+
+// 获取屏幕宽度和高度
+#define M1905_SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define M1905_SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define M1905_STATUS_BAR_HEIGHT  ([UIDevice currentDevice].isIPhoneX ?44.f :20.f)
+
+
 static const char* fs_overlayKey = "fs_overlayKey";
 
 @implementation UINavigationBar (FSAppearance)
