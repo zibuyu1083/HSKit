@@ -83,11 +83,9 @@
 		6EDEB40C2272A095006E3720 /* UIAlertView+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D12272A091006E3720 /* UIAlertView+Runtime.m */; };
 		6EDEB40E2272A095006E3720 /* NSString+DYChangYanEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D32272A092006E3720 /* NSString+DYChangYanEmoji.m */; };
 		6EDEB40F2272A095006E3720 /* UIDevice+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D42272A092006E3720 /* UIDevice+FSExtension.m */; };
-		6EDEB4102272A095006E3720 /* UIScrollView+FSPageState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D52272A092006E3720 /* UIScrollView+FSPageState.m */; };
 		6EDEB4112272A095006E3720 /* NSNull+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3D62272A092006E3720 /* NSNull+Expand.h */; };
 		6EDEB4122272A095006E3720 /* NSData+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D72272A092006E3720 /* NSData+Encrypt.m */; };
 		6EDEB4132272A095006E3720 /* UITabBarController+HideTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3D82272A092006E3720 /* UITabBarController+HideTabbar.m */; };
-		6EDEB4142272A095006E3720 /* UIScrollView+FSPageState.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3D92272A092006E3720 /* UIScrollView+FSPageState.h */; };
 		6EDEB4152272A095006E3720 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3DA2272A092006E3720 /* UIScrollView+EmptyDataSet.h */; };
 		6EDEB4162272A095006E3720 /* UINavigationBar+Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3DB2272A092006E3720 /* UINavigationBar+Gradient.h */; };
 		6EDEB4172272A095006E3720 /* NSURL+DYQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3DC2272A092006E3720 /* NSURL+DYQuery.m */; };
@@ -392,11 +390,9 @@
 		6EDEB3D12272A091006E3720 /* UIAlertView+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Runtime.m"; path = "HSKit/Classes/UIAlertView+Runtime.m"; sourceTree = "<group>"; };
 		6EDEB3D32272A092006E3720 /* NSString+DYChangYanEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DYChangYanEmoji.m"; path = "HSKit/Classes/NSString+DYChangYanEmoji.m"; sourceTree = "<group>"; };
 		6EDEB3D42272A092006E3720 /* UIDevice+FSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+FSExtension.m"; path = "HSKit/Classes/UIDevice+FSExtension.m"; sourceTree = "<group>"; };
-		6EDEB3D52272A092006E3720 /* UIScrollView+FSPageState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+FSPageState.m"; path = "HSKit/Classes/UIScrollView+FSPageState.m"; sourceTree = "<group>"; };
 		6EDEB3D62272A092006E3720 /* NSNull+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNull+Expand.h"; path = "HSKit/Classes/NSNull+Expand.h"; sourceTree = "<group>"; };
 		6EDEB3D72272A092006E3720 /* NSData+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Encrypt.m"; path = "HSKit/Classes/NSData+Encrypt.m"; sourceTree = "<group>"; };
 		6EDEB3D82272A092006E3720 /* UITabBarController+HideTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+HideTabbar.m"; path = "HSKit/Classes/UITabBarController+HideTabbar.m"; sourceTree = "<group>"; };
-		6EDEB3D92272A092006E3720 /* UIScrollView+FSPageState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+FSPageState.h"; path = "HSKit/Classes/UIScrollView+FSPageState.h"; sourceTree = "<group>"; };
 		6EDEB3DA2272A092006E3720 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "HSKit/Classes/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		6EDEB3DB2272A092006E3720 /* UINavigationBar+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+Gradient.h"; path = "HSKit/Classes/UINavigationBar+Gradient.h"; sourceTree = "<group>"; };
 		6EDEB3DC2272A092006E3720 /* NSURL+DYQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+DYQuery.m"; path = "HSKit/Classes/NSURL+DYQuery.m"; sourceTree = "<group>"; };
@@ -896,8 +892,6 @@
 				6EDEB3E32272A093006E3720 /* UINavigationBar+Gradient.m */,
 				6EDEB3DA2272A092006E3720 /* UIScrollView+EmptyDataSet.h */,
 				6EDEB3EE2272A094006E3720 /* UIScrollView+EmptyDataSet.m */,
-				6EDEB3D92272A092006E3720 /* UIScrollView+FSPageState.h */,
-				6EDEB3D52272A092006E3720 /* UIScrollView+FSPageState.m */,
 				6EDEB3E12272A093006E3720 /* UITabBarController+HideTabbar.h */,
 				6EDEB3D82272A092006E3720 /* UITabBarController+HideTabbar.m */,
 				6EDEB3C12272A090006E3720 /* UITextView+Placeholder.h */,
@@ -1164,7 +1158,6 @@
 				F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */,
 				DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */,
 				6EDEB4112272A095006E3720 /* NSNull+Expand.h in Headers */,
-				6EDEB4142272A095006E3720 /* UIScrollView+FSPageState.h in Headers */,
 				6EDEB4352272A5BF006E3720 /* SNRuntimeUtil.h in Headers */,
 				6EDEB40B2272A095006E3720 /* UINavigationBar+FSAppearance.h in Headers */,
 				E3355DB3F63F6FE79FD8DD6188B0B3A4 /* EXPMatchers+contain.h in Headers */,
@@ -1470,7 +1463,6 @@
 				6EDEB4172272A095006E3720 /* NSURL+DYQuery.m in Sources */,
 				6EDEB3F52272A095006E3720 /* UINavigationBar+FSAppearance.m in Sources */,
 				5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */,
-				6EDEB4102272A095006E3720 /* UIScrollView+FSPageState.m in Sources */,
 				6EDEB4202272A095006E3720 /* UIImage+animatedGIF.m in Sources */,
 				6EDEB41E2272A095006E3720 /* UINavigationBar+Gradient.m in Sources */,
 				6EDEB41D2272A095006E3720 /* UIView+Appearance.m in Sources */,
