@@ -64,7 +64,6 @@
 		6EDEB3F62272A095006E3720 /* NSURL+DYQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3BB2272A090006E3720 /* NSURL+DYQuery.h */; };
 		6EDEB3F82272A095006E3720 /* UIImage+animatedGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3BD2272A090006E3720 /* UIImage+animatedGIF.h */; };
 		6EDEB3F92272A095006E3720 /* FLAnimatedImageView+FSGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3BE2272A090006E3720 /* FLAnimatedImageView+FSGif.h */; };
-		6EDEB3FA2272A095006E3720 /* UIImageView+CornerMark.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3BF2272A090006E3720 /* UIImageView+CornerMark.h */; };
 		6EDEB3FB2272A095006E3720 /* UIAlertView+Runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3C02272A090006E3720 /* UIAlertView+Runtime.h */; };
 		6EDEB3FC2272A095006E3720 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3C12272A090006E3720 /* UITextView+Placeholder.h */; };
 		6EDEB3FD2272A095006E3720 /* WKWebView+DYUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3C22272A090006E3720 /* WKWebView+DYUserAgent.h */; };
@@ -78,7 +77,6 @@
 		6EDEB4052272A095006E3720 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3CA2272A091006E3720 /* NSArray+Extension.m */; };
 		6EDEB4062272A095006E3720 /* UIWebView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3CB2272A091006E3720 /* UIWebView+Extension.m */; };
 		6EDEB4072272A095006E3720 /* FLAnimatedImageView+FSGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3CC2272A091006E3720 /* FLAnimatedImageView+FSGif.m */; };
-		6EDEB4082272A095006E3720 /* UIImageView+CornerMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3CD2272A091006E3720 /* UIImageView+CornerMark.m */; };
 		6EDEB4092272A095006E3720 /* NSObject+SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3CE2272A091006E3720 /* NSObject+SystemInfo.m */; };
 		6EDEB40A2272A095006E3720 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3CF2272A091006E3720 /* UIImage+Extension.m */; };
 		6EDEB40B2272A095006E3720 /* UINavigationBar+FSAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3D02272A091006E3720 /* UINavigationBar+FSAppearance.h */; };
@@ -106,17 +104,15 @@
 		6EDEB4222272A095006E3720 /* AFHTTPRequestOperationManager+ZimgPostRaw.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3E72272A093006E3720 /* AFHTTPRequestOperationManager+ZimgPostRaw.m */; };
 		6EDEB4232272A095006E3720 /* NSError+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3E82272A093006E3720 /* NSError+Extension.m */; };
 		6EDEB4242272A095006E3720 /* NSArray+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3E92272A093006E3720 /* NSArray+Extension.h */; };
-		6EDEB4252272A095006E3720 /* UIViewController+Navigate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3EA2272A094006E3720 /* UIViewController+Navigate.h */; };
 		6EDEB4262272A095006E3720 /* UIWebView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3EB2272A094006E3720 /* UIWebView+Extension.h */; };
-		6EDEB4272272A095006E3720 /* UIImageView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3EC2272A094006E3720 /* UIImageView+BackgroundColor.m */; };
-		6EDEB4282272A095006E3720 /* UIViewController+Navigate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3ED2272A094006E3720 /* UIViewController+Navigate.m */; };
 		6EDEB4292272A095006E3720 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3EE2272A094006E3720 /* UIScrollView+EmptyDataSet.m */; };
 		6EDEB42A2272A095006E3720 /* AFHTTPRequestOperationManager+ZimgPostRaw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3EF2272A094006E3720 /* AFHTTPRequestOperationManager+ZimgPostRaw.h */; };
 		6EDEB42B2272A095006E3720 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3F02272A094006E3720 /* UIImageView+CornerRadius.m */; };
-		6EDEB42C2272A095006E3720 /* UIImageView+BackgroundColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB3F12272A094006E3720 /* UIImageView+BackgroundColor.h */; };
 		6EDEB42D2272A095006E3720 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB3F22272A095006E3720 /* UITextView+Placeholder.m */; };
 		6EDEB4342272A5BF006E3720 /* SNRuntimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEB4322272A5BE006E3720 /* SNRuntimeUtil.m */; };
 		6EDEB4352272A5BF006E3720 /* SNRuntimeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB4332272A5BF006E3720 /* SNRuntimeUtil.h */; };
+		6EDEB43A2272ABAD006E3720 /* M1905MacroDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB4382272ABAC006E3720 /* M1905MacroDefinition.h */; };
+		6EDEB43B2272ABAD006E3720 /* M1905ColorDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDEB4392272ABAD006E3720 /* M1905ColorDefinition.h */; };
 		6EEF2F3422705893006FD378 /* NSDate+HSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EEF2F2222705891006FD378 /* NSDate+HSKit.h */; };
 		6EEF2F3522705893006FD378 /* UIView+HSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EEF2F2322705891006FD378 /* UIView+HSKit.h */; };
 		6EEF2F3622705893006FD378 /* NSError+HSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EEF2F2422705891006FD378 /* NSError+HSKit.h */; };
@@ -377,7 +373,6 @@
 		6EDEB3BB2272A090006E3720 /* NSURL+DYQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+DYQuery.h"; path = "HSKit/Classes/NSURL+DYQuery.h"; sourceTree = "<group>"; };
 		6EDEB3BD2272A090006E3720 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "HSKit/Classes/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		6EDEB3BE2272A090006E3720 /* FLAnimatedImageView+FSGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FLAnimatedImageView+FSGif.h"; path = "HSKit/Classes/FLAnimatedImageView+FSGif.h"; sourceTree = "<group>"; };
-		6EDEB3BF2272A090006E3720 /* UIImageView+CornerMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+CornerMark.h"; path = "HSKit/Classes/UIImageView+CornerMark.h"; sourceTree = "<group>"; };
 		6EDEB3C02272A090006E3720 /* UIAlertView+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+Runtime.h"; path = "HSKit/Classes/UIAlertView+Runtime.h"; sourceTree = "<group>"; };
 		6EDEB3C12272A090006E3720 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "HSKit/Classes/UITextView+Placeholder.h"; sourceTree = "<group>"; };
 		6EDEB3C22272A090006E3720 /* WKWebView+DYUserAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WKWebView+DYUserAgent.h"; path = "HSKit/Classes/WKWebView+DYUserAgent.h"; sourceTree = "<group>"; };
@@ -391,7 +386,6 @@
 		6EDEB3CA2272A091006E3720 /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Extension.m"; path = "HSKit/Classes/NSArray+Extension.m"; sourceTree = "<group>"; };
 		6EDEB3CB2272A091006E3720 /* UIWebView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+Extension.m"; path = "HSKit/Classes/UIWebView+Extension.m"; sourceTree = "<group>"; };
 		6EDEB3CC2272A091006E3720 /* FLAnimatedImageView+FSGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "FLAnimatedImageView+FSGif.m"; path = "HSKit/Classes/FLAnimatedImageView+FSGif.m"; sourceTree = "<group>"; };
-		6EDEB3CD2272A091006E3720 /* UIImageView+CornerMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+CornerMark.m"; path = "HSKit/Classes/UIImageView+CornerMark.m"; sourceTree = "<group>"; };
 		6EDEB3CE2272A091006E3720 /* NSObject+SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SystemInfo.m"; path = "HSKit/Classes/NSObject+SystemInfo.m"; sourceTree = "<group>"; };
 		6EDEB3CF2272A091006E3720 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "HSKit/Classes/UIImage+Extension.m"; sourceTree = "<group>"; };
 		6EDEB3D02272A091006E3720 /* UINavigationBar+FSAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+FSAppearance.h"; path = "HSKit/Classes/UINavigationBar+FSAppearance.h"; sourceTree = "<group>"; };
@@ -419,17 +413,15 @@
 		6EDEB3E72272A093006E3720 /* AFHTTPRequestOperationManager+ZimgPostRaw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AFHTTPRequestOperationManager+ZimgPostRaw.m"; path = "HSKit/Classes/AFHTTPRequestOperationManager+ZimgPostRaw.m"; sourceTree = "<group>"; };
 		6EDEB3E82272A093006E3720 /* NSError+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+Extension.m"; path = "HSKit/Classes/NSError+Extension.m"; sourceTree = "<group>"; };
 		6EDEB3E92272A093006E3720 /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Extension.h"; path = "HSKit/Classes/NSArray+Extension.h"; sourceTree = "<group>"; };
-		6EDEB3EA2272A094006E3720 /* UIViewController+Navigate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Navigate.h"; path = "HSKit/Classes/UIViewController+Navigate.h"; sourceTree = "<group>"; };
 		6EDEB3EB2272A094006E3720 /* UIWebView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWebView+Extension.h"; path = "HSKit/Classes/UIWebView+Extension.h"; sourceTree = "<group>"; };
-		6EDEB3EC2272A094006E3720 /* UIImageView+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+BackgroundColor.m"; path = "HSKit/Classes/UIImageView+BackgroundColor.m"; sourceTree = "<group>"; };
-		6EDEB3ED2272A094006E3720 /* UIViewController+Navigate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Navigate.m"; path = "HSKit/Classes/UIViewController+Navigate.m"; sourceTree = "<group>"; };
 		6EDEB3EE2272A094006E3720 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "HSKit/Classes/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		6EDEB3EF2272A094006E3720 /* AFHTTPRequestOperationManager+ZimgPostRaw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AFHTTPRequestOperationManager+ZimgPostRaw.h"; path = "HSKit/Classes/AFHTTPRequestOperationManager+ZimgPostRaw.h"; sourceTree = "<group>"; };
 		6EDEB3F02272A094006E3720 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+CornerRadius.m"; path = "HSKit/Classes/UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
-		6EDEB3F12272A094006E3720 /* UIImageView+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+BackgroundColor.h"; path = "HSKit/Classes/UIImageView+BackgroundColor.h"; sourceTree = "<group>"; };
 		6EDEB3F22272A095006E3720 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "HSKit/Classes/UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		6EDEB4322272A5BE006E3720 /* SNRuntimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNRuntimeUtil.m; path = HSKit/Classes/SNRuntimeUtil.m; sourceTree = "<group>"; };
 		6EDEB4332272A5BF006E3720 /* SNRuntimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNRuntimeUtil.h; path = HSKit/Classes/SNRuntimeUtil.h; sourceTree = "<group>"; };
+		6EDEB4382272ABAC006E3720 /* M1905MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = M1905MacroDefinition.h; path = HSKit/Classes/M1905MacroDefinition.h; sourceTree = "<group>"; };
+		6EDEB4392272ABAD006E3720 /* M1905ColorDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = M1905ColorDefinition.h; path = HSKit/Classes/M1905ColorDefinition.h; sourceTree = "<group>"; };
 		6EEF2F2222705891006FD378 /* NSDate+HSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+HSKit.h"; path = "HSKit/Classes/NSDate+HSKit.h"; sourceTree = "<group>"; };
 		6EEF2F2322705891006FD378 /* UIView+HSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+HSKit.h"; path = "HSKit/Classes/UIView+HSKit.h"; sourceTree = "<group>"; };
 		6EEF2F2422705891006FD378 /* NSError+HSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+HSKit.h"; path = "HSKit/Classes/NSError+HSKit.h"; sourceTree = "<group>"; };
@@ -896,10 +888,6 @@
 				6EDEB3CF2272A091006E3720 /* UIImage+Extension.m */,
 				6EDEB3E02272A093006E3720 /* UIImage+ImageEffects.h */,
 				6EDEB3C62272A091006E3720 /* UIImage+ImageEffects.m */,
-				6EDEB3F12272A094006E3720 /* UIImageView+BackgroundColor.h */,
-				6EDEB3EC2272A094006E3720 /* UIImageView+BackgroundColor.m */,
-				6EDEB3BF2272A090006E3720 /* UIImageView+CornerMark.h */,
-				6EDEB3CD2272A091006E3720 /* UIImageView+CornerMark.m */,
 				6EDEB3B82272A08F006E3720 /* UIImageView+CornerRadius.h */,
 				6EDEB3F02272A094006E3720 /* UIImageView+CornerRadius.m */,
 				6EDEB3D02272A091006E3720 /* UINavigationBar+FSAppearance.h */,
@@ -918,14 +906,14 @@
 				6EDEB3E22272A093006E3720 /* UIView+Appearance.m */,
 				6EEF2F2322705891006FD378 /* UIView+HSKit.h */,
 				6EEF2F2D22705892006FD378 /* UIView+HSKit.m */,
-				6EDEB3EA2272A094006E3720 /* UIViewController+Navigate.h */,
-				6EDEB3ED2272A094006E3720 /* UIViewController+Navigate.m */,
 				6EDEB4332272A5BF006E3720 /* SNRuntimeUtil.h */,
 				6EDEB4322272A5BE006E3720 /* SNRuntimeUtil.m */,
 				6EDEB3EB2272A094006E3720 /* UIWebView+Extension.h */,
 				6EDEB3CB2272A091006E3720 /* UIWebView+Extension.m */,
 				6EDEB3C22272A090006E3720 /* WKWebView+DYUserAgent.h */,
 				6EDEB3C32272A090006E3720 /* WKWebView+DYUserAgent.m */,
+				6EDEB4392272ABAD006E3720 /* M1905ColorDefinition.h */,
+				6EDEB4382272ABAC006E3720 /* M1905MacroDefinition.h */,
 			);
 			name = HSKit;
 			path = ../..;
@@ -1136,9 +1124,9 @@
 				6EDEB3F42272A095006E3720 /* NSString+DYChangYanEmoji.h in Headers */,
 				8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */,
 				ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */,
-				6EDEB42C2272A095006E3720 /* UIImageView+BackgroundColor.h in Headers */,
 				6EDEB3F92272A095006E3720 /* FLAnimatedImageView+FSGif.h in Headers */,
 				FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */,
+				6EDEB43B2272ABAD006E3720 /* M1905ColorDefinition.h in Headers */,
 				4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */,
 				6EDEB4212272A095006E3720 /* NSError+Extension.h in Headers */,
 				1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */,
@@ -1167,10 +1155,10 @@
 				6EDEB4152272A095006E3720 /* UIScrollView+EmptyDataSet.h in Headers */,
 				6EDEB4262272A095006E3720 /* UIWebView+Extension.h in Headers */,
 				6EDEB3FC2272A095006E3720 /* UITextView+Placeholder.h in Headers */,
-				6EDEB3FA2272A095006E3720 /* UIImageView+CornerMark.h in Headers */,
 				6EDEB41C2272A095006E3720 /* UITabBarController+HideTabbar.h in Headers */,
 				6EDEB42A2272A095006E3720 /* AFHTTPRequestOperationManager+ZimgPostRaw.h in Headers */,
 				64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */,
+				6EDEB43A2272ABAD006E3720 /* M1905MacroDefinition.h in Headers */,
 				CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */,
 				FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */,
 				F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */,
@@ -1197,7 +1185,6 @@
 				DED9AE33B24B462D4B44FE94383B35F4 /* EXPMatchers+respondTo.h in Headers */,
 				6EEF2F3522705893006FD378 /* UIView+HSKit.h in Headers */,
 				9CAFC7DAE2E661FC92393E5CC55D1D61 /* EXPMatchers.h in Headers */,
-				6EDEB4252272A095006E3720 /* UIViewController+Navigate.h in Headers */,
 				60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */,
 				DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */,
 				5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */,
@@ -1475,14 +1462,11 @@
 				6EEF2F4222705893006FD378 /* UIFont+HSKit.m in Sources */,
 				6EDEB4042272A095006E3720 /* NSNull+Expand.m in Sources */,
 				1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */,
-				6EDEB4282272A095006E3720 /* UIViewController+Navigate.m in Sources */,
 				6EDEB4132272A095006E3720 /* UITabBarController+HideTabbar.m in Sources */,
-				6EDEB4272272A095006E3720 /* UIImageView+BackgroundColor.m in Sources */,
 				6EDEB42B2272A095006E3720 /* UIImageView+CornerRadius.m in Sources */,
 				BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */,
 				6EDEB4122272A095006E3720 /* NSData+Encrypt.m in Sources */,
 				6EDEB4232272A095006E3720 /* NSError+Extension.m in Sources */,
-				6EDEB4082272A095006E3720 /* UIImageView+CornerMark.m in Sources */,
 				6EDEB4172272A095006E3720 /* NSURL+DYQuery.m in Sources */,
 				6EDEB3F52272A095006E3720 /* UINavigationBar+FSAppearance.m in Sources */,
 				5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */,
