@@ -13,11 +13,11 @@
 #import <CommonCrypto/CommonDigest.h>
 #import <CoreTelephony/CTCarrier.h>
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
-#import "CoreStatus.h"
+//#import "CoreStatus.h"
 #include <sys/types.h>
 #include <sys/sysctl.h>
 #import <mach/mach.h>
-#import <iRate/iRate.h>
+//#import <iRate/iRate.h>
 
 static CTTelephonyNetworkInfo *telephone;
 
@@ -536,10 +536,10 @@ static CTTelephonyNetworkInfo *telephone;
 	return [webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
 }
 
-+ (NSString *)getAppId {
-	NSString *appID = [NSString stringWithFormat:@"%ld", [iRate sharedInstance].appStoreID];
-	return appID;
-}
+//+ (NSString *)getAppId {
+//    NSString *appID = [NSString stringWithFormat:@"%ld", [iRate sharedInstance].appStoreID];
+//    return appID;
+//}
 
 + (NSString *)getIdentifier {
 	NSString *bundleId = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
@@ -566,25 +566,25 @@ static CTTelephonyNetworkInfo *telephone;
 	return uuid;
 }
 
-+ (BOOL)isTelecomNetWork {
-	static dispatch_once_t onceToken;
-	dispatch_once(&onceToken, ^{
-		telephone = [[CTTelephonyNetworkInfo alloc] init];
-	});
-	CTCarrier *carrier = [telephone subscriberCellularProvider];
-
-	if (carrier == nil) {
-		return NO;
-	}
-
-	NSString *mCarrier = [NSString stringWithFormat:@"%@", [carrier carrierName]];
-	if ([mCarrier rangeOfString:@"电信"].location != NSNotFound) {
-		if ([CoreStatus isWifiEnable]) {
-			return NO;
-		}
-		return YES;
-	}
-	return NO;
-}
+//+ (BOOL)isTelecomNetWork {
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        telephone = [[CTTelephonyNetworkInfo alloc] init];
+//    });
+//    CTCarrier *carrier = [telephone subscriberCellularProvider];
+//
+//    if (carrier == nil) {
+//        return NO;
+//    }
+//
+//    NSString *mCarrier = [NSString stringWithFormat:@"%@", [carrier carrierName]];
+//    if ([mCarrier rangeOfString:@"电信"].location != NSNotFound) {
+//        if ([CoreStatus isWifiEnable]) {
+//            return NO;
+//        }
+//        return YES;
+//    }
+//    return NO;
+//}
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "NSObject+M1905Moives.h"
+#import "NSObject+EasyJSON.h"
 
 @implementation NSObject (M1905Moives)
 
